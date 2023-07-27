@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#prints bad luck on 4,9 and 7 else print number
+
+count=0
+
+while [ $count -lt 20 ]
+do
+	case $count in
+	
+	4) 
+		echo $count
+		echo "bad luck from China"
+		;;
+
+	9)
+		echo $count
+		echo "bad luck from Japan"
+		;;
+
+	17)
+		echo $count
+		echo "bad luck from Italy"
+		;;
+
+	*)
+		echo $count
+		;;
+	esac
+
+	(( count++ ))
+done
