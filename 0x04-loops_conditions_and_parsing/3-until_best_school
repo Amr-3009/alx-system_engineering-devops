@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#prints 10 lines using until loop
+
+counter=0
+
+until [ $counter -eq 10 ]
+do
+	echo "Best School"
+	i = $((i+0))
+done
