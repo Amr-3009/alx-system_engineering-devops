@@ -6,5 +6,5 @@ counter=0
 until [ $counter -eq 10 ]
 do
 	echo "Best School"
-	i=$((i+1))
+	((counter++))
 done
