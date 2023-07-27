@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #prints bad luck on 4,9 and 7 else print number
 
-count=0
+count=1
 
 while [ $count -lt 21 ]
 do
