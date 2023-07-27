@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#print evey hour then every minute
+
+count=0
+
+while [ $count -le 12 ]
+do
+	echo "Hour: $count"
+	j=1
+	while [ $j -le 59 ]
+	do
+		echo "$j"
+		(( j++ ))
+	done
+	(( count++ ))
+done
